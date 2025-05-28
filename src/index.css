@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "PPNeueMontreal-bold";
+  src: url("./fonts/ppneuemontreal-bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "PPNeueMontreal-medium";
+  src: url("./fonts/ppneuemontreal-medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "PPNeueMontreal-book";
+  src: url("./fonts/ppneuemontreal-book.otf") format("opentype");
+}
+@font-face {
+  font-family: "PPNeueMontreal-regular";
+  src: url("./fonts/ppneuemontreal-regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "PPNeueMontreal-semibolditalic";
+  src: url("./fonts/ppneuemontreal-semibolditalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "PPNeueMontreal-thin";
+  src: url("./fonts/ppneuemontreal-thin.otf") format("opentype");
+}
+
+@theme {
+ --font-PPNeueMontreal-regular: 'PPNeueMontreal-regular', 'sans-serif';
+}
+
+@import "tailwindcss";
+
+* {
+  ::selection {
+    background-color: black;
+    color: white;
+  }
+}
+body {
+  /* background-color: black; */
+  background-color: #fdf8f8;
+  font-family: ppNeueMontreal, sans-serif;
+}
+
+
+canvas{
+  pointer-events: none;
+}
+
+#growingspan {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+ 
+ 
+  
+}
+
+
